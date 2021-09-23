@@ -4,7 +4,7 @@ const config = {
   },
 
   db: {
-    uri: "mongodb+srv://a01242469:Ferrari2013@webproject.xkamh.mongodb.net/Biblioteca_Ranchito?retryWrites=true&w=majority",
+    uri: process.env.URI,
   },
 };
 
