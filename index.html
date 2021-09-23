@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Manager</title>
+</head>
+
+<body>
+    <header>
+        <h1>Biblioteca Ranchito</h1>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <form action="/add" method="POST">
+                <input type="number" name="id" placeholder="ID" required>
+                <input type="text" placeholder="Titulo" name="title" required>
+                <input type="text" name="autor" placeholder="Autor">
+                <input type="text" name="saga" placeholder="Saga">
+                <input type="text" name="categoria" placeholder="Categoria" >
+                <input type="text" name="editorial" placeholder="Editorial">
+                <input type="text" name="volumen" placeholder="Volumén">
+                <input type="text" name="fecha" placeholder="Año de Publicación" >
+                <input type="text" name="imagen" placeholder="Url de Imagen" required>
+                <button type="submit">Añadir</button>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
